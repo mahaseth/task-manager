@@ -21,7 +21,7 @@ const Dashboard = () => {
         {data && <p>Data loaded</p>}
       </div>
 
-      <div className="container">
+      <div className="container">7
         <h1>Task Dashboard</h1>
         <Link to="/add">+ Add Task</Link>
         <TaskList tasks={tasks} />
